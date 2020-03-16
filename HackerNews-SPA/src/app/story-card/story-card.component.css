@@ -22,8 +22,8 @@
 }
 
 .shadow {
-    color: #3e7adb;
-    text-shadow: 1px 1px 1px #e79801
+    color: #e79801;
+    text-shadow: .5px .5px .5px #000000
 }
 
 .card:hover {

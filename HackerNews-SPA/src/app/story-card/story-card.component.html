@@ -1,6 +1,7 @@
 <div class="card mb-4">
   <div class="card-body p-1">
-    <a href="{{story.url}}">{{story.title}}</a>
+    <div *ngIf="story.url != null"><a href="{{story.url}}">{{story.title}}</a></div>
+    <div *ngIf="story.url == null"><a>{{story.title}}</a></div>
   </div>
   <div class="card-footer">
     <div>
