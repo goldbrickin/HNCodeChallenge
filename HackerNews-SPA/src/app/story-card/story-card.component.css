@@ -1,0 +1,42 @@
+.card-body {
+    padding: 0 25px;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    border-top: none;
+    color: #3e7adb;
+    text-shadow: .5px .5px .5px #d9b786
+}
+
+.card {
+    min-width: 200px;
+    min-height: 150px;
+    background-color:#e8ddd5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card a {
+    color: #e79801;
+    text-shadow: .5px .5px .5px #000000
+}
+
+.shadow {
+    color: #3e7adb;
+    text-shadow: 1px 1px 1px #e79801
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+/*
+Color palette
+#e79801
+#d9b786
+#e8ddd5
+#92a2c6
+#3e7adb
+*/

@@ -1,0 +1,8 @@
+<div class="container mt-3">
+  <div class="mb-3"><input type="text" [(ngModel)]="searchText" placeholder="search..." class="search"></div>
+  <div class="row">
+    <div *ngFor="let story of stories | storyFilterPipe: 'title' : searchText : 'includes'" class="col-lg-3 col-md-4 col-sm-6">
+      <app-story-card [story]="story"></app-story-card>
+    </div>
+  </div>
+</div>
